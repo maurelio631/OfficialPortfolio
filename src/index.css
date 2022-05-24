@@ -25,6 +25,11 @@ h2, header div div p {
   font-family: 'Press Start 2P';
 }
 
+main section:nth-child(2){  
+  background-repeat: no-repeat;
+  opacity: 1;
+}
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
