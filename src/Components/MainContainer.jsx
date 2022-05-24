@@ -7,6 +7,10 @@ import PhoneMemoji from "../Assets/img/PhoneMemoji.webp";
 import Code from "../Assets/img/code.png";
 import SenacLogo from "../Assets/img/SenacLogo.png";
 import UninoveLogo from "../Assets/img/LogoUninove.jpeg";
+import AugmensysLogo from "../Assets/img/AugmensysLogo.jpg";
+import ConfitecLogo from "../Assets/img/ConfitecLogo.jpg";
+import RochelleGif from "../Assets/img/rochelle.gif";
+
 
 
 export default function MainContainer() {
@@ -31,29 +35,54 @@ export default function MainContainer() {
                             <img className="rounded-full w-1/2" src={SenacLogo} alt="Logo Senac" />
                             <p className="mt-5">Iniciação em Linguagem Java</p>
                             <p className="mt-4">Status: <span className="text-lime-500">Concluído</span> </p>
-                            <AiFillCheckCircle className="text-lime-500 mt-2"/>
+                            <AiFillCheckCircle className="text-lime-500 mt-2" />
                         </div>
                         <div className="h-72 w-72 border-2 border-lime-500 mb-5 flex flex-col justify-center items-center">
                             <img className="rounded-full w-1/2" src={SenacLogo} alt="Logo Senac" />
                             <p className="mt-5">Lógica de Programação</p>
                             <p className="mt-4">Status: <span className="text-lime-500">Concluído</span> </p>
-                            <AiFillCheckCircle className="text-lime-500 mt-2"/>
+                            <AiFillCheckCircle className="text-lime-500 mt-2" />
                         </div>
                         <div className="h-72 w-72 border-2 border-lime-500 mb-5 flex flex-col justify-center items-center">
                             <img className="rounded-full w-1/2" src={SenacLogo} alt="Logo Senac" />
                             <p className="mt-5">Técnico em Informática</p>
                             <p className="mt-4">Status: <span className="text-lime-500">Concluído</span> </p>
-                            <AiFillCheckCircle className="text-lime-500 mt-2"/>
+                            <AiFillCheckCircle className="text-lime-500 mt-2" />
                         </div>
                         <div className="h-72 w-72 border-2 border-lime-500 mb-5 flex flex-col justify-center items-center">
                             <img className="rounded-full w-1/2" src={UninoveLogo} alt="Logo Uninove" />
                             <p className="mt-5 text-center">Ciência da Computação</p>
                             <p className="mt-4">Status: <span className="text-yellow-400">Em andamento</span> </p>
-                            <MdOutlinePendingActions className="text-yellow-400 mt-2"/>
+                            <MdOutlinePendingActions className="text-yellow-400 mt-2" />
                         </div>
                     </div>
                 </div>
             </section>
-        </main >
+            <section className="container flex flex-col p-10 bg-black text-white">
+                <h2 className="text-white text-center">Experiência</h2>
+                <p className="text-justify mt-5">Por conta das coisas que eu aprendi nesses cursos eu tive/tenho a oportunidade de mostrar o que eu sei e aprender mais ainda nesses lugares:</p>
+                <div className="flex flex-col items-center mt-10">
+                    <div>
+                        <img className="rounded" src={AugmensysLogo} alt="Logo Augmensys" />
+                        <p className="text-center mt-5"><span className="text-red-500">Função: </span>Estagiário em desenvolvimento front-end</p>
+                    </div>
+                    <div className="flex flex-col mt-5">
+                        <img className="rounded" src={ConfitecLogo} alt="Logo Confitec" />
+                        <p className="text-center mt-5"><span className="text-lime-500">Função: </span>Analista de sistemas</p>
+                    </div>
+                </div>
+                <div className="flex flex-col items-center mt-10 text-center">
+                    <p>Mas nem só de um trabalho vive um dev não é mesmo...</p>
+                    <img className="my-5" src={RochelleGif} alt="Gif Rochelle Meu marido tem dois empregos"/>
+                    <p>E é por isso que aqui tenho mais alguns trabalhos que estão no ar:</p>
+                </div>
+                <div className="flex flex-col items-center mt-10">
+                    <div>
+                        <h3>A Quiropraxia</h3>
+                        
+                    </div>
+                </div>
+            </section>
+        </main>
     )
 }
