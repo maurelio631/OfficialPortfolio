@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins');
+
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+*, *::after, *::before {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: 'Poppins';
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+h2, header div div p {
+  font-family: 'Press Start 2P';
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
