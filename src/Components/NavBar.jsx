@@ -18,9 +18,9 @@ export default function NavBar() {
                     <li className='p-4'><a>Habilidades</a></li>
                     <li className='p-4'>
                         <div className='flex'>
-                            <a> <FaLinkedinIn fontSize="1.7rem" className='mx-4' /></a>
-                            <a><FaGithub fontSize="1.7rem" className='mx-4' /></a>
-                            <a><AiOutlineMail fontSize="1.7rem" className='mx-4' /></a>
+                            <a href='https://www.linkedin.com/in/marco-aur%C3%A9lio-449459109/' target="_blank"> <FaLinkedinIn fontSize="1.7rem" className='mx-4' /></a>
+                            <a href='https://github.com/maurelio631'><FaGithub fontSize="1.7rem" className='mx-4' /></a>
+                            <a href='mailto:marco.silva631@outlook.com'><AiOutlineMail fontSize="1.7rem" className='mx-4' /></a>
                         </div>
                     </li>
                 </ul>
