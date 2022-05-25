@@ -7,8 +7,8 @@ import Like from "../Assets/img/LikeMemoji.webp"
 
 export default function NavBar() {
     return (
-        <header >
-            <nav className='flex flex-col justify-center items-center bg-black text-white text-base py-5'>
+        <header>
+            <nav className='flex flex-col justify-center md:justify-around items-center bg-black text-white text-base py-5'>
                 <img src="" alt="" />
                 <ul className='flex items-center p-2 flex-col lg:flex-row'>
                     <li className='p-4'>
@@ -26,7 +26,7 @@ export default function NavBar() {
                 </ul>
             </nav>
             <div className='relative text-center'>
-                <img src={Teclado} alt="teclado" className='h-80'/>
+                <img src={Teclado} alt="teclado" className='h-80 w-full'/>
                 <div className='absolute top-2/4 left-2/4 -translate-x-2/4 -translate-y-2/4 flex'>
                     <div className='flex flex-col items-center'>
                         <img src={Like} typeof="image/webp" alt="Memoji sorrindo e fazendo positivo com a mão" className='w-32' />

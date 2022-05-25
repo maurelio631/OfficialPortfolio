@@ -18,7 +18,7 @@ import RochelleGif from "../Assets/img/rochelle.gif";
 export default function MainContainer() {
     return (
         <main>
-            <section className="bg-black container flex flex-col p-10">
+            <section className="bg-black  flex flex-col p-10">
                 <h2 className="text-white text-center ">Sobre mim</h2>
                 <div className="flex flex-col items-center">
                     <img src={PhoneMemoji} typeof="image/webp" alt="" className="w-32 mt-5" />
@@ -28,30 +28,30 @@ export default function MainContainer() {
                         Pra começar, eu vou contar um pouco sobre os cursos que eu fiz e os que estão prestes a terminar:</p>
                 </div>
             </section>
-            <section className="container flex flex-col p-10 bg-black text-white">
+            <section className=" flex flex-col p-10 bg-black text-white">
                 <h2 className="text-white text-center"> Educação</h2>
                 <p className="text-center mt-5">Aqui você encontra os principais cursos que fiz e estou fazendo, porque estudar nunca é demais!</p>
                 <div className="flex flex-col items-center mt-10">
                     <div className="flex flex-wrap justify-center">
-                        <div className="h-72 w-72 border-2 border-lime-500 mb-5 flex flex-col justify-center items-center">
+                        <div className="h-72 w-72 border-2 border-lime-500 m-5 flex flex-col justify-center items-center">
                             <img className="rounded-full w-1/2" src={SenacLogo} alt="Logo Senac" />
                             <p className="mt-5">Iniciação em Linguagem Java</p>
                             <p className="mt-4">Status: <span className="text-lime-500">Concluído</span> </p>
                             <AiFillCheckCircle className="text-lime-500 mt-2" />
                         </div>
-                        <div className="h-72 w-72 border-2 border-lime-500 mb-5 flex flex-col justify-center items-center">
+                        <div className="h-72 w-72 border-2 border-lime-500 m-5 flex flex-col justify-center items-center">
                             <img className="rounded-full w-1/2" src={SenacLogo} alt="Logo Senac" />
                             <p className="mt-5">Lógica de Programação</p>
                             <p className="mt-4">Status: <span className="text-lime-500">Concluído</span> </p>
                             <AiFillCheckCircle className="text-lime-500 mt-2" />
                         </div>
-                        <div className="h-72 w-72 border-2 border-lime-500 mb-5 flex flex-col justify-center items-center">
+                        <div className="h-72 w-72 border-2 border-lime-500 m-5 flex flex-col justify-center items-center">
                             <img className="rounded-full w-1/2" src={SenacLogo} alt="Logo Senac" />
                             <p className="mt-5">Técnico em Informática</p>
                             <p className="mt-4">Status: <span className="text-lime-500">Concluído</span> </p>
                             <AiFillCheckCircle className="text-lime-500 mt-2" />
                         </div>
-                        <div className="h-72 w-72 border-2 border-lime-500 mb-5 flex flex-col justify-center items-center">
+                        <div className="h-72 w-72 border-2 border-lime-500 m-5 flex flex-col justify-center items-center">
                             <img className="rounded-full w-1/2" src={UninoveLogo} alt="Logo Uninove" />
                             <p className="mt-5 text-center">Ciência da Computação</p>
                             <p className="mt-4">Status: <span className="text-yellow-400">Em andamento</span> </p>
@@ -60,11 +60,11 @@ export default function MainContainer() {
                     </div>
                 </div>
             </section>
-            <section className="container flex flex-col p-10 bg-black text-white">
+            <section className=" flex flex-col p-10 bg-black text-white">
                 <h2 className="text-white text-center">Experiência</h2>
                 <p className="text-justify mt-5">Por conta das coisas que eu aprendi nesses cursos eu tive/tenho a oportunidade de mostrar o que eu sei e aprender mais ainda nesses lugares:</p>
-                <div className="flex flex-col items-center mt-10">
-                    <div>
+                <div className="flex flex-col md:flex-row items-center md:justify-center mt-10">
+                    <div className="flex flex-col md:mx-16">
                         <img className="rounded" src={AugmensysLogo} alt="Logo Augmensys" />
                         <p className="text-center mt-5"><span className="text-red-500">Função: </span>Estagiário em desenvolvimento front-end</p>
                     </div>
@@ -88,43 +88,46 @@ export default function MainContainer() {
                     </div>
                 </div>
             </section>
-            <section className="container flex flex-col p-10 bg-black text-white">
+            <section className=" flex flex-col p-10 bg-black text-white">
                 <h2 className="text-white text-center">Tecnologias</h2>
                 <p className="text-center mt-5">Aqui você encontra as tecnologias com as quais eu trabalhei e trbalho, e o meu nível aproximado de familiaridade com cada uma delas</p>
-                <div className="flex flex-col items-center mt-10">
-                    <div>
-                        <label>HTML</label>
-                        <Progress width={120} rounded="md" value={75} colorScheme="green" />
+                <div className="flex flex-col md:flex-row justify-center items-center mt-5 ">
+                    <div className="flex flex-col md:m-8">
+                        <div className="mt-10">
+                            <label>HTML</label>
+                            <Progress width={120} rounded="md" value={75} colorScheme="green" />
+                        </div>
+                        <div className="mt-10">
+                            <label>CSS</label>
+                            <Progress width={120} rounded="md" value={60} colorScheme="green" />
+                        </div>
+                        <div className="mt-10">
+                            <label>JS</label>
+                            <Progress width={120} rounded="md" value={45} colorScheme="green" />
+                        </div>
+                        <div className="mt-10">
+                            <label>TS</label>
+                            <Progress width={120} rounded="md" value={10} colorScheme="green" />
+                        </div>
                     </div>
-                    <div className="mt-10">
-                        <label>CSS</label>
-                        <Progress width={120} rounded="md" value={60} colorScheme="green" />
+                    <div className="flex flex-col md:m-8">
+                        <div className="mt-10">
+                            <label>C#</label>
+                            <Progress width={120} rounded="md" value={25} colorScheme="green" />
+                        </div>
+                        <div className="mt-10">
+                            <label>Angular</label>
+                            <Progress width={120} rounded="md" value={30} colorScheme="green" />
+                        </div>
+                        <div className="mt-10">
+                            <label>React</label>
+                            <Progress width={120} rounded="md" value={45} colorScheme="green" />
+                        </div>
+                        <div className="mt-10">
+                            <label>Tailwind</label>
+                            <Progress width={120} rounded="md" value={45} colorScheme="green" />
+                        </div>
                     </div>
-                    <div className="mt-10">
-                        <label>JS</label>
-                        <Progress width={120} rounded="md" value={45} colorScheme="green" />
-                    </div>
-                    <div className="mt-10">
-                        <label>TS</label>
-                        <Progress width={120} rounded="md" value={10} colorScheme="green" />
-                    </div>
-                    <div className="mt-10">
-                        <label>C#</label>
-                        <Progress width={120} rounded="md" value={25} colorScheme="green" />
-                    </div>
-                    <div className="mt-10">
-                        <label>Angular</label>
-                        <Progress width={120} rounded="md" value={30} colorScheme="green" />
-                    </div>
-                    <div className="mt-10">
-                        <label>React</label>
-                        <Progress width={120} rounded="md" value={45} colorScheme="green" />
-                    </div>
-                    <div className="mt-10">
-                        <label>Tailwind</label>
-                        <Progress width={120} rounded="md" value={45} colorScheme="green" />
-                    </div>
-                    
                 </div>
             </section>
         </main>
