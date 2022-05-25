@@ -12,11 +12,11 @@
   padding: 0;
   list-style: none;
   box-sizing: border-box;
+  font-family: 'Poppins';
 }
 
 body {
   margin: 0;
-  font-family: 'Poppins';
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -28,9 +28,4 @@ h2, header div div p {
 main section:nth-child(2){  
   background-repeat: no-repeat;
   opacity: 1;
-}
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
 }

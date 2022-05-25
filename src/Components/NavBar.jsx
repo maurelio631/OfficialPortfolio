@@ -19,7 +19,7 @@ export default function NavBar() {
                     <li className='p-4'>
                         <div className='flex'>
                             <a href='https://www.linkedin.com/in/marco-aur%C3%A9lio-449459109/' target="_blank"> <FaLinkedinIn fontSize="1.7rem" className='mx-4' /></a>
-                            <a href='https://github.com/maurelio631'><FaGithub fontSize="1.7rem" className='mx-4' /></a>
+                            <a href='https://github.com/maurelio631' target="_blank"><FaGithub fontSize="1.7rem" className='mx-4' /></a>
                             <a href='mailto:marco.silva631@outlook.com'><AiOutlineMail fontSize="1.7rem" className='mx-4' /></a>
                         </div>
                     </li>

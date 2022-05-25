@@ -1,5 +1,7 @@
 import React from "react";
 
+import { Progress, Stack } from "@chakra-ui/react";
+
 import { AiFillCheckCircle } from 'react-icons/ai';
 import { MdOutlinePendingActions } from 'react-icons/md';
 
@@ -73,14 +75,56 @@ export default function MainContainer() {
                 </div>
                 <div className="flex flex-col items-center mt-10 text-center">
                     <p>Mas nem só de um trabalho vive um dev não é mesmo...</p>
-                    <img className="my-5" src={RochelleGif} alt="Gif Rochelle Meu marido tem dois empregos"/>
+                    <img className="my-5" src={RochelleGif} alt="Gif Rochelle Meu marido tem dois empregos" />
                     <p>E é por isso que aqui tenho mais alguns trabalhos que estão no ar:</p>
                 </div>
                 <div className="flex flex-col items-center mt-10">
                     <div>
                         <h3>A Quiropraxia</h3>
-                        
+
                     </div>
+                    <div>
+                        <h3>Luana Farinazzo</h3>
+                    </div>
+                </div>
+            </section>
+            <section className="container flex flex-col p-10 bg-black text-white">
+                <h2 className="text-white text-center">Tecnologias</h2>
+                <p className="text-center mt-5">Aqui você encontra as tecnologias com as quais eu trabalhei e trbalho, e o meu nível aproximado de familiaridade com cada uma delas</p>
+                <div className="flex flex-col items-center mt-10">
+                    <div>
+                        <label>HTML</label>
+                        <Progress width={120} rounded="md" value={75} colorScheme="green" />
+                    </div>
+                    <div className="mt-10">
+                        <label>CSS</label>
+                        <Progress width={120} rounded="md" value={60} colorScheme="green" />
+                    </div>
+                    <div className="mt-10">
+                        <label>JS</label>
+                        <Progress width={120} rounded="md" value={45} colorScheme="green" />
+                    </div>
+                    <div className="mt-10">
+                        <label>TS</label>
+                        <Progress width={120} rounded="md" value={10} colorScheme="green" />
+                    </div>
+                    <div className="mt-10">
+                        <label>C#</label>
+                        <Progress width={120} rounded="md" value={25} colorScheme="green" />
+                    </div>
+                    <div className="mt-10">
+                        <label>Angular</label>
+                        <Progress width={120} rounded="md" value={30} colorScheme="green" />
+                    </div>
+                    <div className="mt-10">
+                        <label>React</label>
+                        <Progress width={120} rounded="md" value={45} colorScheme="green" />
+                    </div>
+                    <div className="mt-10">
+                        <label>Tailwind</label>
+                        <Progress width={120} rounded="md" value={45} colorScheme="green" />
+                    </div>
+                    
                 </div>
             </section>
         </main>
