@@ -1,6 +1,7 @@
 import React from "react";
 import { FaLinkedinIn, FaGithub } from "react-icons/fa";
 import { AiOutlineMail } from "react-icons/ai";
+import {FiTwitter} from "react-icons/fi";
 import Teclado from "../Assets/img/teclado.png";
 import Like from "../Assets/img/LikeMemoji.webp";
 
@@ -28,11 +29,13 @@ export default function NavBar() {
                 href="https://www.linkedin.com/in/marco-aur%C3%A9lio-449459109/"
                 target="_blank"
               >
-                {" "}
                 <FaLinkedinIn fontSize="1.7rem" className="mx-4" />
               </a>
               <a href="https://github.com/maurelio631" target="_blank">
                 <FaGithub fontSize="1.7rem" className="mx-4" />
+              </a>
+              <a href="https://twitter.com/ymarc0" target="_blank">
+                  <FiTwitter fontSize="1.7rem" className="mx-4"/>
               </a>
               <a href="mailto:marco.silva631@outlook.com">
                 <AiOutlineMail fontSize="1.7rem" className="mx-4" />
