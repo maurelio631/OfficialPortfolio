@@ -28,18 +28,18 @@ export default function NavBar() {
             <div className="flex">
               <a
                 href="https://www.linkedin.com/in/marco-aur%C3%A9lio-449459109/"
-                target="_blank"
+                target="_blank" 
               >
-                <FaLinkedinIn fontSize="1.7rem" className="mx-4" />
+                <FaLinkedinIn fontSize="1.7rem" className="mx-4 hover:scale-125 transition-all" />
               </a>
               <a href="https://github.com/maurelio631" target="_blank">
-                <FaGithub fontSize="1.7rem" className="mx-4" />
+                <FaGithub fontSize="1.7rem" className="mx-4 hover:scale-125 transition-all" />
               </a>
               <a href="https://twitter.com/ymarc0" target="_blank">
-                  <FiTwitter fontSize="1.7rem" className="mx-4"/>
+                  <FiTwitter fontSize="1.7rem" className="mx-4 hover:scale-125 transition-all"/>
               </a>
               <a href="mailto:marco.silva631@outlook.com">
-                <AiOutlineMail fontSize="1.7rem" className="mx-4" />
+                <AiOutlineMail fontSize="1.7rem" className="mx-4 hover:scale-125 transition-all" />
               </a>
             </div>
           </li>

@@ -26,14 +26,14 @@ export default function MainContainer() {
             alt=""
             className="w-32 mt-5"
           />
-          <p className="text-white mt-12 text-justify">
+          <p className="text-white mt-12 text-center md:text-justify">
             Oi, eu sou o Marco! Tenho 21 anos e se você caiu aqui de
             para-quedas, esse é meu portfólio, o lugar onde você vai poder
             conhecer um pouco sobre mim, sobre as coisas que eu estou
             aprendendo, trabalhos que eu executei e o que está em andamento por
             aqui.
           </p>
-          <p className="text-white mt-12 text-justify ">
+          <p className="text-white mt-12 text-center md:text-justify ">
             Pra começar, eu vou contar um pouco sobre os cursos que eu fiz e os
             que estão prestes a terminar:
           </p>
@@ -106,7 +106,7 @@ export default function MainContainer() {
         id="Experiencia"
       >
         <h2 className="text-white text-center">Experiência</h2>
-        <p className="text-justify mt-5">
+        <p className="text-center mt-5 md:text-center">
           Por conta das coisas que eu aprendi nesses cursos eu tive/tenho a
           oportunidade de mostrar o que eu sei e aprender mais ainda nesses
           lugares:
