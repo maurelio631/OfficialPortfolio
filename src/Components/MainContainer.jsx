@@ -65,7 +65,7 @@ export default function MainContainer() {
                 <p className="text-justify mt-5">Por conta das coisas que eu aprendi nesses cursos eu tive/tenho a oportunidade de mostrar o que eu sei e aprender mais ainda nesses lugares:</p>
                 <div className="flex flex-col md:flex-row items-center md:justify-center mt-10">
                     <div className="flex flex-col md:mx-8 items-center">
-                        <img className="rounded bg-white w-60 h-60" src={AugmensysLogo} alt="Logo Augmensys"/>
+                        <img className="rounded bg-white w-60 h-60" src={AugmensysLogo} alt="Logo Augmensys" />
                         <p className="text-center mt-5"><span className="text-red-500">Função: </span>Estagiário em desenvolvimento front-end</p>
                     </div>
                     <div className="flex flex-col md:mx-8 mt-5 md:mt-0">

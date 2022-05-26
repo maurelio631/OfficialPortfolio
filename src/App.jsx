@@ -7,8 +7,8 @@ function App() {
   return (
     <>
       <NavBar />
-      <MainContainer/>
-      <Footer/> 
+      <MainContainer />
+      <Footer />
     </>
   )
 

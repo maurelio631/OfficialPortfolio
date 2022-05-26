@@ -26,7 +26,7 @@ export default function NavBar() {
                 </ul>
             </nav>
             <div className='relative text-center'>
-                <img src={Teclado} alt="teclado" className='h-80 w-full'/>
+                <img src={Teclado} alt="teclado" className='h-80 w-full' />
                 <div className='absolute top-2/4 left-2/4 -translate-x-2/4 -translate-y-2/4 flex'>
                     <div className='flex flex-col items-center'>
                         <img src={Like} typeof="image/webp" alt="Memoji sorrindo e fazendo positivo com a mão" className='w-32' />
