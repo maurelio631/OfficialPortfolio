@@ -12,6 +12,7 @@ import UninoveLogo from "../Assets/img/LogoUninove.jpeg";
 import AugmensysLogo from "../Assets/img/AugmensysLogo.jpg";
 import ConfitecLogo from "../Assets/img/ConfitecLogo.jpg";
 import RochelleGif from "../Assets/img/rochelle.gif";
+import GoToTopBtn from "./GoToTopBtn";
 
 export default function MainContainer() {
   return (
@@ -232,6 +233,7 @@ export default function MainContainer() {
             </div>
           </div>
         </div>
+      <GoToTopBtn/>
       </section>
     </main>
   );
