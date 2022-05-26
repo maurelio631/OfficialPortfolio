@@ -25,7 +25,13 @@ h2, header div div p {
   font-family: 'Press Start 2P';
 }
 
-main section:nth-child(2){  
+main section:nth-child(2) {
   background-repeat: no-repeat;
   opacity: 1;
+}
+
+footer {
+  background-image: url("./Assets/img/FooterBackground.png");
+  background-repeat: space;
+  
 }

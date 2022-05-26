@@ -33,25 +33,25 @@ export default function MainContainer() {
                 <p className="text-center mt-5">Aqui você encontra os principais cursos que fiz e estou fazendo, porque estudar nunca é demais!</p>
                 <div className="flex flex-col items-center mt-10">
                     <div className="flex flex-wrap justify-center">
-                        <div className="h-72 w-72 border-2 border-lime-500 m-5 flex flex-col justify-center items-center">
+                        <div className="h-72 w-64 border-2 border-lime-500 m-4 flex flex-col justify-center items-center">
                             <img className="rounded-full w-1/2" src={SenacLogo} alt="Logo Senac" />
                             <p className="mt-5">Iniciação em Linguagem Java</p>
                             <p className="mt-4">Status: <span className="text-lime-500">Concluído</span> </p>
                             <AiFillCheckCircle className="text-lime-500 mt-2" />
                         </div>
-                        <div className="h-72 w-72 border-2 border-lime-500 m-5 flex flex-col justify-center items-center">
+                        <div className="h-72 w-64 border-2 border-lime-500 m-4 flex flex-col justify-center items-center">
                             <img className="rounded-full w-1/2" src={SenacLogo} alt="Logo Senac" />
                             <p className="mt-5">Lógica de Programação</p>
                             <p className="mt-4">Status: <span className="text-lime-500">Concluído</span> </p>
                             <AiFillCheckCircle className="text-lime-500 mt-2" />
                         </div>
-                        <div className="h-72 w-72 border-2 border-lime-500 m-5 flex flex-col justify-center items-center">
+                        <div className="h-72 w-64 border-2 border-lime-500 m-4 flex flex-col justify-center items-center">
                             <img className="rounded-full w-1/2" src={SenacLogo} alt="Logo Senac" />
                             <p className="mt-5">Técnico em Informática</p>
                             <p className="mt-4">Status: <span className="text-lime-500">Concluído</span> </p>
                             <AiFillCheckCircle className="text-lime-500 mt-2" />
                         </div>
-                        <div className="h-72 w-72 border-2 border-lime-500 m-5 flex flex-col justify-center items-center">
+                        <div className="h-72 w-64 border-2 border-lime-500 m-4 flex flex-col justify-center items-center">
                             <img className="rounded-full w-1/2" src={UninoveLogo} alt="Logo Uninove" />
                             <p className="mt-5 text-center">Ciência da Computação</p>
                             <p className="mt-4">Status: <span className="text-yellow-400">Em andamento</span> </p>
@@ -64,12 +64,12 @@ export default function MainContainer() {
                 <h2 className="text-white text-center">Experiência</h2>
                 <p className="text-justify mt-5">Por conta das coisas que eu aprendi nesses cursos eu tive/tenho a oportunidade de mostrar o que eu sei e aprender mais ainda nesses lugares:</p>
                 <div className="flex flex-col md:flex-row items-center md:justify-center mt-10">
-                    <div className="flex flex-col md:mx-16">
-                        <img className="rounded" src={AugmensysLogo} alt="Logo Augmensys" />
+                    <div className="flex flex-col md:mx-8 items-center">
+                        <img className="rounded bg-white w-60 h-60" src={AugmensysLogo} alt="Logo Augmensys"/>
                         <p className="text-center mt-5"><span className="text-red-500">Função: </span>Estagiário em desenvolvimento front-end</p>
                     </div>
-                    <div className="flex flex-col mt-5">
-                        <img className="rounded" src={ConfitecLogo} alt="Logo Confitec" />
+                    <div className="flex flex-col md:mx-8 mt-5 md:mt-0">
+                        <img className="rounded w-60 h-60" src={ConfitecLogo} alt="Logo Confitec" />
                         <p className="text-center mt-5"><span className="text-lime-500">Função: </span>Analista de sistemas</p>
                     </div>
                 </div>
