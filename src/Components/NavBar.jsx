@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-scroll";
 import { FaLinkedinIn, FaGithub } from "react-icons/fa";
 import { AiOutlineMail } from "react-icons/ai";
 import {FiTwitter} from "react-icons/fi";
@@ -12,16 +13,16 @@ export default function NavBar() {
         <img src="" alt="" />
         <ul className="flex items-center p-2 flex-col lg:flex-row">
           <li className="p-4">
-            <a href="">Sobre mim </a>
+            <Link to="SobreMim" spy={true} smooth={true} offset={-100} duration={500} className="cursor-pointer">Sobre mim </Link>
           </li>
           <li className="p-4">
-            <a href=""> Educação</a>
+            <Link to="Educacao" spy={true} smooth={true} offset={-100} duration={500} className="cursor-pointer"> Educação</Link>
           </li>
           <li className="p-4">
-            <a>Experiência</a>
+          <Link to="Experiencia" spy={true} smooth={true} offset={-100} duration={500} className="cursor-pointer">Experiência</Link>
           </li>
           <li className="p-4">
-            <a>Habilidades</a>
+          <Link to="Habilidades" spy={true} smooth={true} offset={-100} duration={500} className="cursor-pointer">Habilidades</Link>
           </li>
           <li className="p-4">
             <div className="flex">

@@ -17,7 +17,7 @@ import GoToTopBtn from "./GoToTopBtn";
 export default function MainContainer() {
   return (
     <main>
-      <section className="bg-black  flex flex-col p-10">
+      <section className="bg-black  flex flex-col p-10" id="SobreMim">
         <h2 className="text-white text-center ">Sobre mim</h2>
         <div className="flex flex-col items-center">
           <img
@@ -39,7 +39,10 @@ export default function MainContainer() {
           </p>
         </div>
       </section>
-      <section className=" flex flex-col p-10 bg-black text-white">
+      <section
+        className=" flex flex-col p-10 bg-black text-white"
+        id="Educacao"
+      >
         <h2 className="text-white text-center"> Educação</h2>
         <p className="text-center mt-5">
           Aqui você encontra os principais cursos que fiz e estou fazendo,
@@ -98,7 +101,10 @@ export default function MainContainer() {
           </div>
         </div>
       </section>
-      <section className=" flex flex-col p-10 bg-black text-white">
+      <section
+        className=" flex flex-col p-10 bg-black text-white"
+        id="Experiencia"
+      >
         <h2 className="text-white text-center">Experiência</h2>
         <p className="text-justify mt-5">
           Por conta das coisas que eu aprendi nesses cursos eu tive/tenho a
@@ -149,7 +155,10 @@ export default function MainContainer() {
           </div>
         </div>
       </section>
-      <section className=" flex flex-col p-10 bg-black text-white">
+      <section
+        className=" flex flex-col p-10 bg-black text-white"
+        id="Habilidades"
+      >
         <h2 className="text-white text-center">Tecnologias</h2>
         <p className="text-center mt-5">
           Aqui você encontra as tecnologias com as quais eu trabalhei e trbalho,
@@ -233,7 +242,7 @@ export default function MainContainer() {
             </div>
           </div>
         </div>
-      <GoToTopBtn/>
+        <GoToTopBtn />
       </section>
     </main>
   );
