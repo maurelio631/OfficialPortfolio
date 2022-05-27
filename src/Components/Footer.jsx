@@ -45,7 +45,7 @@ export default function Footer() {
         <a href="#">
           <img src={TechMemoji} className="w-32 my-4 hover:scale-150 transition-all" />
         </a>
-        <p className="text-center my-5">
+        <p className="text-center my-4">
           Todos os direitos reservados &copy; 2022 - Design created by
           <span>
             <a href="https://linkr.bio/linhas.soutas" target="_blank" className="hover:text-pink-400"> @linhas.soutas&reg; </a>

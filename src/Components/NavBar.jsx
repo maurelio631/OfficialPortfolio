@@ -7,7 +7,7 @@ import Teclado from "../Assets/img/teclado.png";
 import Like from "../Assets/img/LikeMemoji.webp";
 
 export default function NavBar() {
-  const textoH1 = "<Marco/>"
+  const textoH1 = "Oi, eu sou o Marco :)"
   return (
     <header>
       <nav className="flex flex-col lg:flex-row justify-center md:justify-around items-center bg-black text-white text-base py-5">
