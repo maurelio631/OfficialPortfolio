@@ -24,7 +24,7 @@ export default function MainContainer() {
             src={PhoneMemoji}
             typeof="image/webp"
             alt=""
-            className="w-32 mt-5"
+            className="w-32 mt-5 hover:scale-150 transition-all"
           />
           <p className="text-white mt-12 text-center md:text-justify">
             Oi, eu sou o Marco! Tenho 21 anos e se você caiu aqui de
@@ -211,6 +211,7 @@ export default function MainContainer() {
                 rounded="md"
                 value={25}
                 colorScheme="green"
+                _placeholder="teste"
               />
             </div>
             <div className="mt-10">

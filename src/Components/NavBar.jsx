@@ -2,44 +2,96 @@ import React from "react";
 import { Link } from "react-scroll";
 import { FaLinkedinIn, FaGithub } from "react-icons/fa";
 import { AiOutlineMail } from "react-icons/ai";
-import {FiTwitter} from "react-icons/fi";
+import { FiTwitter } from "react-icons/fi";
 import Teclado from "../Assets/img/teclado.png";
 import Like from "../Assets/img/LikeMemoji.webp";
 
 export default function NavBar() {
+  const textoH1 = "<Marco/>"
   return (
     <header>
-      <nav className="flex flex-col justify-center md:justify-around items-center bg-black text-white text-base py-5">
-        <img src="" alt="" />
+      <nav className="flex flex-col lg:flex-row justify-center md:justify-around items-center bg-black text-white text-base py-5">
+        <a href="#" className="text-xl">
+          <h1 className="m-8">{textoH1}</h1>
+        </a>
         <ul className="flex items-center p-2 flex-col lg:flex-row">
           <li className="p-4">
-            <Link to="SobreMim" spy={true} smooth={true} offset={-100} duration={500} className="cursor-pointer">Sobre mim </Link>
+            <Link
+              to="SobreMim"
+              spy={true}
+              offset={-100}
+              smooth={true}
+              duration={500}
+              className="cursor-pointer hover:border-b-2 hover:border-lime-500"
+            >
+              Sobre mim{" "}
+            </Link>
           </li>
           <li className="p-4">
-            <Link to="Educacao" spy={true} smooth={true} offset={-100} duration={500} className="cursor-pointer"> Educação</Link>
+            <Link
+              to="Educacao"
+              spy={true}
+              smooth={true}
+              offset={-100}
+              duration={500}
+              className="cursor-pointer hover:border-b-2 hover:border-lime-500"
+            >
+              {" "}
+              Educação
+            </Link>
           </li>
           <li className="p-4">
-          <Link to="Experiencia" spy={true} smooth={true} offset={-100} duration={500} className="cursor-pointer">Experiência</Link>
+            <Link
+              to="Experiencia"
+              spy={true}
+              smooth={true}
+              offset={-100}
+              duration={500}
+              className="cursor-pointer hover:border-b-2 hover:border-lime-500"
+            >
+              Experiência
+            </Link>
           </li>
           <li className="p-4">
-          <Link to="Habilidades" spy={true} smooth={true} offset={-100} duration={500} className="cursor-pointer">Habilidades</Link>
+            <Link
+              to="Habilidades"
+              spy={true}
+              smooth={true}
+              offset={-100}
+              duration={500}
+              className="cursor-pointer hover:border-b-2 hover:border-lime-500"
+            >
+              Habilidades
+            </Link>
           </li>
-          <li className="p-4">
-            <div className="flex">
+          <li className="p-4 ">
+            <div className="flex ">
               <a
                 href="https://www.linkedin.com/in/marco-aur%C3%A9lio-449459109/"
-                target="_blank" 
+                target="_blank"
               >
-                <FaLinkedinIn fontSize="1.7rem" className="mx-4 hover:scale-125 transition-all" />
+                <FaLinkedinIn
+                  fontSize="1.7rem"
+                  className="mx-4 hover:scale-125 transition-all"
+                />
               </a>
               <a href="https://github.com/maurelio631" target="_blank">
-                <FaGithub fontSize="1.7rem" className="mx-4 hover:scale-125 transition-all" />
+                <FaGithub
+                  fontSize="1.7rem"
+                  className="mx-4 hover:scale-125 transition-all"
+                />
               </a>
               <a href="https://twitter.com/ymarc0" target="_blank">
-                  <FiTwitter fontSize="1.7rem" className="mx-4 hover:scale-125 transition-all"/>
+                <FiTwitter
+                  fontSize="1.7rem"
+                  className="mx-4 hover:scale-125 transition-all"
+                />
               </a>
               <a href="mailto:marco.silva631@outlook.com">
-                <AiOutlineMail fontSize="1.7rem" className="mx-4 hover:scale-125 transition-all" />
+                <AiOutlineMail
+                  fontSize="1.7rem"
+                  className="mx-4 hover:scale-125 transition-all"
+                />
               </a>
             </div>
           </li>
@@ -53,9 +105,9 @@ export default function NavBar() {
               src={Like}
               typeof="image/webp"
               alt="Memoji sorrindo e fazendo positivo com a mão"
-              className="w-32"
+              className="w-32 hover:scale-150 transition-all"
             />
-            <h2 className="text-white font mb-3">Marco Aurélio Sousa Silva</h2>
+            <h2 className="text-white font my-3">Marco Aurélio Sousa Silva</h2>
             <p className="text-white">Desenvolvedor Fullstack</p>
           </div>
         </div>
